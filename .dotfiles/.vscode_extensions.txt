@@ -1,4 +1,7 @@
-tomoki1207.pdf
+## Included in devcontainer builds
 # hashicorp.terraform
-redhat.ansible
 # ms-azuretools.vscode-docker
+
+tomoki1207.pdf
+redhat.ansible
+marp-team.marp-vscode
