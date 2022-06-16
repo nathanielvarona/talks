@@ -1,0 +1,4 @@
+tomoki1207.pdf
+# hashicorp.terraform
+redhat.ansible
+# ms-azuretools.vscode-docker
