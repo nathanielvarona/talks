@@ -26,3 +26,6 @@ grep -qxF '[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh' ~/.zshrc || echo '\n[ -f ~/.f
 
 # Install VSCode Extensions
 grep -e '^[^#]' .vscode_extensions.txt | xargs -I % code --install-extension %
+
+# Changes Terminal Theme
+sed -i '/^#/!s/ZSH_THEME="codespaces"/ZSH_THEME="agnoster"/g' ~/.zshrc

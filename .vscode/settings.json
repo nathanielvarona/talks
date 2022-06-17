@@ -4,5 +4,6 @@
         "zsh": {
             "path": "/bin/zsh"
         }
-    }
+    },
+    "terminal.integrated.fontFamily": "Monaco, 'Hack Nerd Font'"
 }

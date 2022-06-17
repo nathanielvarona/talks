@@ -1,0 +1,12 @@
+[Instapaper] {size: 2,7;}
+[RSS(Feedly)] -> [Instapaper]{ origin: RSS(Feedly); offset: 2,0;}
+[WeChat] -> [Instapaper]{ origin: WeChat; offset: 2,-6;}
+[Website] -> [Instapaper]
+[IFTTT]{size: 1,7;}
+[Instapaper] -> [Diigo]{ origin: Instapaper; offset: 2,-2;}
+[Instapaper] -> [IFTTT]{ origin: Instapaper; offset: 2,0;}
+[Instapaper] -> [Evernote]{ origin: Instapaper; offset: 2,2;}
+[Webtask(Serverless)]{size: 2,7;}
+[IFTTT] -> [Webtask(Serverless)]{ origin: IFTTT; offset: 2,0;}
+[Webtask(Serverless)] -> [Github]{ origin: Webtask(Serverless); offset: 2,-2;}
+[Webtask(Serverless)] -> [ZenHub]{ origin: Webtask(Serverless); offset: 2,2}
