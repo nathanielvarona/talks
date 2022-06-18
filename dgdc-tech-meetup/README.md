@@ -94,6 +94,72 @@ Root OUs
 
 ---
 
-#### IAM and SSO in Action
+#### IAM and SSO in a Whole Picture
 
 ![w:900 h:600](diagrams/aws_org_iam_and_sso.jpeg)
+
+
+---
+
+## Orchestrated Services
+
+### Amazon Kubernetes Service (Amazon EKS)
+### Amazon Elastic Container Service (Amazon ECS)
+
+---
+
+#### Amazon Kubernetes Service (Amazon EKS)
+![w:900](diagrams/provisioningamazoneksclusters-diagram1.png)
+
+
+---
+
+#### Amazon Elastic Container Service (Amazon ECS)
+
+![w:900](diagrams/aws-ecs.png)
+* EC2 Compute, or
+* ECS/Fargate
+
+---
+
+## Microservice and Serverless Architecture
+
+### Amazon ECS/Fargate
+### Amazon Lambda
+
+---
+
+#### Amazon ECS/Fargate
+
+![w:600](diagrams/ecs-fargate.png)
+
+---
+
+#### Amazon Lambda
+
+![w:1000](diagrams/lambda-functions.png)
+
+---
+
+### Evolution of Software Architecture
+
+![w:1000](diagrams/evolution-of-software-architecture.png)
+
+---
+
+### Example: Micro-Frontend Architecture
+
+![w:700](diagrams/Microservices-backend-with-the-micro-frontends.jpeg)
+
+---
+
+### Example: Micro-Frontend UIs
+
+![w:800 right](diagrams/micro-front-end-ui.png)
+
+
+---
+
+### Infrastructure Team Methodologies and Toolings
+
+#### DEMO
