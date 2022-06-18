@@ -98,6 +98,12 @@ Root OUs
 
 ![w:900 h:600](diagrams/aws_org_iam_and_sso.jpeg)
 
+---
+
+#### Master the IAM Policy Structure
+
+![w:1000](diagrams/iam-policy-structure.png)
+
 
 ---
 
@@ -155,7 +161,7 @@ Root OUs
 
 ### Example: Micro-Frontend UIs
 
-![w:800 right](diagrams/micro-front-end-ui.png)
+![w:800](diagrams/micro-front-end-ui.png)
 
 
 ---
@@ -163,3 +169,9 @@ Root OUs
 ### Infrastructure Team Methodologies and Toolings
 
 #### DEMO
+
+---
+
+#### And we have this Meme!
+
+![h:600](diagrams/docu-meme.jpg)
