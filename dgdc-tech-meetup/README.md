@@ -175,3 +175,19 @@ Root OUs
 #### And we have this Meme!
 
 ![h:600](diagrams/docu-meme.jpg)
+
+---
+
+# Mermaid Example
+
+```mermaid
+sequenceDiagram
+Alice->>John: Hello John, how are you?
+loop Healthcheck
+    John->>John: Fight against hypochondria
+end
+Note right of John: Rational thoughts!
+John-->>Alice: Great!
+John->>Bob: How about you?
+Kanor-->>John: Jolly good!
+```

@@ -14,13 +14,13 @@ module "sso_account_assignments" {
       permission_set_arn  = var.permission_sets["AdministratorAccessRole"].arn
       account             = var.aws_account
     },
-    # {
-    #   principal_name      = "developer"
-    #   principal_type      = "GROUP"
-    #   permission_set_name = "ReadOnlyRole"
-    #   permission_set_arn  = var.permission_sets["ReadOnlyRole"].arn
-    #   account             = var.aws_account
-    # },
+    {
+      principal_name      = "developer"
+      principal_type      = "GROUP"
+      permission_set_name = "ReadOnlyRole"
+      permission_set_arn  = var.permission_sets["ReadOnlyRole"].arn
+      account             = var.aws_account
+    },
 
     ###########
     ## USERS ##
