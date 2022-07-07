@@ -6,4 +6,4 @@ tomoki1207.pdf
 redhat.ansible
 marp-team.marp-vscode
 streetsidesoftware.code-spell-checker
-gruntfuggly.activ
+Gruntfuggly.activitusbar

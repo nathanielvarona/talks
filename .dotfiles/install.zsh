@@ -1,7 +1,13 @@
 #!/bin/zsh
 
+## Install Command
+## /bin/zsh $CODESPACE_VSCODE_FOLDER/.dotfiles/install.zsh
+
+DIR=${0:a:h}
+cd $DIR
+
 # Install Brew Packages
-brew bundle
+brew bundle --verbose
 
 # Install Antidote
 [[ -e ~/.antidote ]] || git clone https://github.com/mattmc3/antidote.git ~/.antidote
@@ -29,3 +35,5 @@ grep -e '^[^#]' .vscode_extensions.txt | xargs -I % code --install-extension %
 
 # Changes Terminal Theme
 sed -i '/^#/!s/ZSH_THEME="codespaces"/ZSH_THEME="agnoster"/g' ~/.zshrc
+
+cd $CODESPACE_VSCODE_FOLDER
